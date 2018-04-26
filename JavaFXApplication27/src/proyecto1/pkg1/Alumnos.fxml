@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="419.0" prefWidth="392.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="proyecto1.pkg1.AlumnosController">
+   <children>
+      <Label layoutX="74.0" layoutY="74.0" text="Matricula" />
+      <TextField layoutX="167.0" layoutY="70.0" />
+      <TextField layoutX="167.0" layoutY="109.0" />
+      <Label layoutX="74.0" layoutY="113.0" text="Nombre" />
+      <TextField layoutX="167.0" layoutY="154.0" />
+      <Label layoutX="74.0" layoutY="158.0" text="Apellido Paterno" />
+      <TextField layoutX="169.0" layoutY="203.0" />
+      <Label layoutX="74.0" layoutY="207.0" text="Apellido Materno" />
+      <TextField layoutX="116.0" layoutY="261.0" prefHeight="25.0" prefWidth="64.0" />
+      <Label layoutX="74.0" layoutY="265.0" text="Grado" />
+      <Label layoutX="206.0" layoutY="265.0" text="Grupo" />
+      <TextField layoutX="169.0" layoutY="312.0" />
+      <Label layoutX="77.0" layoutY="316.0" text="Ciclo escolar" />
+      <TextField layoutX="252.0" layoutY="263.0" prefHeight="25.0" prefWidth="64.0" />
+      <Button layoutX="258.0" layoutY="363.0" mnemonicParsing="false" text="Aceptar" />
+      <Text layoutX="96.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Alta de Alumnos" wrappingWidth="182.421875">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

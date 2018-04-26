@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="371.0" prefWidth="354.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="proyecto1.pkg1.MateriasController">
+   <children>
+      <Label layoutX="26.0" layoutY="72.0" text="Clave de la asignatura" />
+      <TextField layoutX="163.0" layoutY="70.0" />
+      <TextField layoutX="163.0" layoutY="107.0" />
+      <Label layoutX="26.0" layoutY="109.0" text="Nombre de asignatura" />
+      <Button layoutX="244.0" layoutY="210.0" mnemonicParsing="false" text="Aceptar" />
+   </children>
+</AnchorPane>
